@@ -1,0 +1,8 @@
+@import "tailwindcss";
+:target::before {
+  content: "";
+  display: block;
+  height: 4rem; /* height of your header */
+  margin-top: -4rem;
+  visibility: hidden;
+}

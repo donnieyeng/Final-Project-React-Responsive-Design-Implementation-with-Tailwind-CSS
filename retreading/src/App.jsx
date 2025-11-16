@@ -7,22 +7,14 @@ import Footer from "./components/layout/Footer";
 
 export default function App() {
   return (
-    <div className="font-sans bg-gray-50 text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans bg-gray-50 text-gray-900">
       <Header />
-      <main className="overflow-x-hidden">
-        {/* Hero Section */}
+      <main className="flex-1 pt-16 scroll-pt-16 overflow-x-hidden">
         <Hero />
-
-        {/* Features / Services */}
         <Features />
-
-        {/* About Us */}
         <About />
-
-        {/* Contact / CTA */}
         <Contact />
       </main>
-
       <Footer />
     </div>
   );
