@@ -5,9 +5,9 @@ import Button from "../common/Button";
 export default function Contact() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const whatsappNumber = "+254712345678";
+  const whatsappNumber = "254111222628";
   const whatsappMessage = encodeURIComponent(
-    "Hello ReTreadPro! I am interested in your tyre retreading services."
+    "Hello TreadSetters! I am interested in your tyre retreading services."
   );
 
   const toggleModal = () => setIsModalOpen(!isModalOpen);
@@ -28,15 +28,15 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-8 text-center mb-12">
         <div className="bg-white shadow-md p-6 rounded-xl hover:shadow-lg transition">
           <h3 className="text-xl font-semibold mb-2">📧 Email</h3>
-          <p className="text-gray-600">info@retreadpro.com</p>
+          <p className="text-gray-600">DonnieAsoma237@gmail.com</p>
         </div>
         <div className="bg-white shadow-md p-6 rounded-xl hover:shadow-lg transition">
           <h3 className="text-xl font-semibold mb-2">📞 Phone</h3>
-          <p className="text-gray-600">+254 712 345 678</p>
+          <p className="text-gray-600">+254 111 222 628</p>
         </div>
         <div className="bg-white shadow-md p-6 rounded-xl hover:shadow-lg transition">
           <h3 className="text-xl font-semibold mb-2">📍 Location</h3>
-          <p className="text-gray-600">Nganya Industrial Area, Nairobi, Kenya</p>
+          <p className="text-gray-600">Ruaraka, Nairobi, Kenya</p>
         </div>
       </div>
 
@@ -104,8 +104,8 @@ export default function Contact() {
       {/* Embedded Google Map */}
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-md">
         <iframe
-          title="ReTreadPro Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.123456789!2d36.8219!3d-1.2921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11712a1e1e7d%3A0xabcdef1234567890!2sNganya%20Industrial%20Area%2C%20Nairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1691234567890!5m2!1sen!2ske"
+          title="TreadSetters Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31886.404048442935!2d36.863893!3d-1.231388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f171a1dd82e99%3A0xefd14bdb39ef63e1!2sBaba%20Dogo%2C%20Ruaraka%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske" 
           width="100%"
           height="300"
           className="border-0"

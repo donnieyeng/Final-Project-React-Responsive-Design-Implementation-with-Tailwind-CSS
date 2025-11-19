@@ -8,15 +8,15 @@ export default function About() {
         {/* Text Content */}
         <div>
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-            About ReTreadPro
+            About TreadSetters
           </h2>
           <p className="text-gray-700 leading-relaxed text-lg sm:text-xl mb-4">
-            At ReTreadPro, our mission is to extend the life of your tyres safely and sustainably.
+            At TreadSetters, our mission is to extend the life of your tyres safely and sustainably.
             Using certified retreading machinery and a team of skilled technicians, we bring worn tyres
             back to peak performance, reducing waste and keeping you on the road longer.
           </p>
           <p className="text-gray-700 leading-relaxed text-lg sm:text-xl mb-6">
-            Founded on principles of quality, safety, and environmental responsibility, ReTreadPro
+            Founded on principles of quality, safety, and environmental responsibility, TreadSetters
             combines decades of experience with modern technology to provide reliable tyre retreading
             services for individuals, fleet operators, and businesses across Nairobi and beyond.
           </p>

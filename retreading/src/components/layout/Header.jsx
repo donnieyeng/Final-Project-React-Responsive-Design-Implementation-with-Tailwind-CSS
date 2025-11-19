@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
-        <div className="text-2xl font-bold text-blue-600">ReTreadPro</div>
+        <div className="text-2xl font-bold text-blue-600">TreadSetters</div>
 
         <nav className="hidden md:flex space-x-8 font-medium text-gray-700">
           <a href="#home" className="hover:text-blue-600">Home</a>
