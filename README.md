@@ -1,59 +1,52 @@
-TreadSetters Kenya – Responsive Landing Page
+# TreadSetters Kenya – Responsive Landing Page
 
-A fully responsive React + Tailwind CSS landing page built as the final project for the IYF Programming Class SSN9.
-This project accurately replicates the LG-desktop Figma layout while introducing a fully original brand identity and Kenyan automotive theme.
+A fully responsive **React + Tailwind CSS** landing page built as the final project for the IYF Programming Class SSN9.  
+This project replicates the LG-desktop Figma layout while introducing a new automotive brand identity.
 
- Live Demo
+---
 
- https://treadsetters-kenya.netlify.app
+##  Live Demo  
+**https://treadsetters-kenya.netlify.app**
 
- Project Overview
 
+
+##  Project Overview  
 TreadSetters Kenya showcases:
 
-Professional-level responsive design across SM, MD, LG
+- Fully responsive design across **SM / MD / LG**
+- Pixel-accurate layout on LG desktop
+- Original brand identity, copywriting, and color strategy
+- Clean React component structure
+- Optimized images + SEO-ready structure
+- Strong accessibility and performance
 
-Pixel-accurate layout on LG desktop
+---
 
-Original copywriting, branding, and color strategy
+##  Key Features
 
-Clean React component architecture
+- Hero section with CTA  
+- Services section with custom cards  
+- About / brand story  
+- Contact CTA  
+- Kenyan automotive-themed branding  
+- Smooth layout scaling  
+- Lazy-loaded images  
+- Fast Lighthouse performance  
 
-Fully optimized images and SEO-ready structure
+---
 
-Strong accessibility and performance standards
+##  Tech Stack
 
- Key Features
+- **React 18**
+- **Vite**
+- **Tailwind CSS**
+- **Netlify (deployment)**
 
-Hero section with CTA
+---
 
-Services section with custom cards
+##  Project Structure
 
-About / brand story
-
-Contact call-to-action section
-
-Original Kenyan automotive brand identity
-
-Smooth layout scaling across breakpoints
-
-Reusable components
-
-Lazy-loaded images
-
-Fast, optimized Lighthouse performance
-
- Tech Stack
-
-React 18
-
-Vite
-
-Tailwind CSS
-
-Netlify
-
- Project Structure
+```text
 src/
   components/
     layout/
@@ -70,10 +63,9 @@ src/
 
 public/
 screenshots/
+Screenshots
 
- Screenshots
-
-These are pulled directly from the /screenshots folder in your repository.
+Screenshots from /screenshots:
 
 LG – Desktop Layout
 
@@ -81,18 +73,18 @@ MD – Tablet Layout
 
 SM – Mobile Layout
 
-Lighthouse Performance Report
+Lighthouse Performance Score
 
- Branding, Colors & Typography
-Brand Name:
+##  Branding, Colors & Typography
+Brand Name
 
 TreadSetters Kenya
 
-Tagline:
+Tagline
 
 Driving Trust. Delivering Quality.
 
-Color Palette
+## Color Palette
 Role	Color	Usage
 Primary	#0F172A	Headings, buttons
 Secondary	#1E293B	Section backgrounds
@@ -100,107 +92,101 @@ Accent	#38BDF8	Highlights, CTAs
 Neutral Light	#F1F5F9	Background
 Neutral Dark	#101010	Text
 
-✔ Meets WCAG AA contrast
-✔ Automotive-themed palette that signals trust + professionalism
+✔ WCAG AA compliant
+✔ Professional Kenyan automotive style
 
-Typography
+## Typography
 
-Clean hierarchy
-
-Strong, bold headings
+Bold headings
 
 Medium-weight section titles
 
-Regular-weight body text
+Regular body text
 
-Scales smoothly across devices
+Scales smoothly across breakpoints
 
- Reusable Components
+##  Reusable Components
 
-Button component
+-Button
 
-Card component (service items)
+-Card (services)
 
-Section wrappers
+-SectionWrapper
 
-Responsive image component
+-ResponsiveImage (lazy-loaded)
 
-Built to maintain consistency and reduce repeated code.
+## Best practices:
 
- SEO Optimization Examples
+Props destructuring
 
-Below are examples of simple SEO improvements implemented in the project:
+Clean folder structure
 
-1. Semantic HTML
+Semantic HTML
+
+## SEO Optimization Examples
+1️⃣ Semantic HTML
 <header>...</header>
 <section id="services">...</section>
 <footer>...</footer>
 
-2. Meta Tags (Ideal for index.html)
+2️⃣ Meta Tags
 <meta name="title" content="TreadSetters Kenya – Automotive Care & Services">
 <meta name="description" content="Premium automotive care in Kenya. Trusted service, modern solutions, and professional excellence.">
 <meta name="keywords" content="car service kenya, automotive kenya, tyre repair, treadsetters kenya">
 <meta name="author" content="Donnie Asoma">
 
-3. Open Graph (For social media previews)
+3️⃣ Open Graph
 <meta property="og:title" content="TreadSetters Kenya">
 <meta property="og:description" content="Driving Trust. Delivering Quality.">
 <meta property="og:image" content="/assets/og-image.png">
 <meta property="og:type" content="website">
 
-4. Image Optimization
+4️⃣ Image Optimization
 
-All images include descriptive alt="" text
+All images include descriptive alt=""
 
-Lazy loading enabled:
+Lazy loading:
 
 <img loading="lazy" ... />
 
-5. Performance Practices
+5️ Performance
 
 Vite-optimized build
 
-Compressed, responsive images
+Compressed images
 
-Minimal unused CSS via Tailwind
+Minimal unused CSS
 
-No heavy external libraries
+No heavy libraries
 
- Performance & Accessibility
+##  Performance & Accessibility
 
 Lighthouse Results:
 
-Performance: 85+
+Performance: 67+
 
-Accessibility: 95+
+Accessibility: 92+
 
-SEO: 90+
+SEO: 91+
 
-Best Practices: 90+
+Best Practices: 100
 
- Deployment
+##  Deployment
 
 Hosted on Netlify
 
 Automatic HTTPS
 
-Fast global CDN
-
-Production builds via:
+Deployed using:
 
 npm run build
 
 
-Deployment uses the dist/ output.
+Uses the dist/ folder for production.
 
- How to Run Locally
-
-Correct repository + folder name:
-
+##  How to Run Locally
 git clone https://github.com/donnieyeng/Final-Project-React-Responsive-Design-Implementation-with-Tailwind-CSS.git
-
 cd Final-Project-React-Responsive-Design-Implementation-with-Tailwind-CSS
-
 npm install
 npm run dev
 
@@ -209,45 +195,38 @@ Production build:
 
 npm run build
 
- Git Commit History
+##  Commit History (Examples)
+feat: initialize project setup
+feat: add Hero section
+feat: add Services section + cards
+feat: About section
+feat: Contact section
+refactor: section wrappers
+perf: lazy load images
+docs: update README
 
-Your repository shows:
+##  Image Credits
 
-13+ meaningful commits
+Images sourced from:
 
-Demonstrating:
+Unsplash
 
-Steady progress
+Pexels
 
-Incremental improvements
+License-free for commercial & educational use.
 
-Clean, purposeful commit messages
-
- Image Credits
-
-All images used in this project were sourced from:
-
-Unsplash (https://unsplash.com
-)
-
-Pexels (https://pexels.com
-)
-
-Suggested credit format:
-
-Images courtesy of Unsplash and Pexels photographers.
-Optimized and used under the free-to-use license.
-
-
-These are license-free for commercial and educational use.
-
- Developer Contact
+##  Developer
 
 Developer: Donnie Asoma
 Email: donnieasoma237@gmail.com
 
 Brand: TreadSetters Kenya
 
- Thank You for Visiting TreadSetters Kenya!
+🙏 Thank You!
 
-This project reflects dedication to clean UI, responsiveness, and modern web design best practices.
+This project reflects dedication to clean UI, responsiveness, and modern web design principles.
+
+
+---
+
+
